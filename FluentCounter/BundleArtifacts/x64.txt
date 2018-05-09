@@ -1,0 +1,2 @@
+MainPackage=C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x64\Debug\FluentCounter_0.1.0.0_x64_Debug.appx
+SymbolPackage=C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\AppPackages\FluentCounter_0.1.0.0_Debug_Test\FluentCounter_0.1.0.0_x64_Debug.appxsym
