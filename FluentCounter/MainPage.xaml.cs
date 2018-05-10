@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Timers;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,22 +23,51 @@ namespace FluentCounter
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        DispatcherTimer dispatcherTimer, demoDispatcher;
+
         public MainPage()
         {
             this.InitializeComponent();
+            timer.Tick += new EventHandler(timer_Tick);
         }
-
-        int counter = 60;
-        DateTime date = new DateTime();
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-           
-                //counter++;
-               // CountdownText.Text = date.AddSeconds(counter).ToString("HH:mm:ss");
-            
 
-            CountdownText.Text = "06:00:00";
+            DateTime currentTime = DateTime.Now;
+            DateTime endTime = currentTime.AddMinutes(1.0);
+
+            TimeSpan difference = endTime.Subtract(currentTime);
+
+            CountdownText.Text = currentTime.Minute.ToString() + " : " + currentTime.Second.ToString() + " : " + currentTime.Millisecond.ToString();
+            CountdownText2.Text = endTime.Minute.ToString() + " : " + endTime.Second.ToString() + " : " + endTime.Millisecond.ToString();
+            difference = endTime.Subtract(currentTime);
+            CountdownText3.Text = difference.ToString();
+
+            //while (currentTime.CompareTo(endTime) <= 0)
+            //{
+            //    currentTime = DateTime.Now;
+            //    if(currentTime.Millisecond == 0)
+            //    {
+            //        difference = endTime.Subtract(currentTime);
+            //        CountdownText3.Text = difference.ToString();
+            //    }
+            //}
+
+
+            //counter++;
+            // CountdownText.Text = date.AddSeconds(counter).ToString("HH:mm:ss");
+
+
+            //CountdownText.Text = "06:00:00";
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            
+            //CountdownText3.Text = DateTime.Now.ToLongTimeString();
+            
+        }
+
     }
 }

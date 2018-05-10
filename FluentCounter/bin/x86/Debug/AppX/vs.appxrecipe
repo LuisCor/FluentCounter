@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>6EFE7DDD1595DB0E84269793703E106B25053ABBCCE2E8A15468519D1DCD2C0A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>5ff577cf-3a48-41c0-bbc7-8159ec9dce65_1.0.0.0_x86__dm1jbdk4h0tfw</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>8F1A93B676F46A5BB452D92026380C956382DEB5F4D00707705EA759C10AA742</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5ff577cf-3a48-41c0-bbc7-8159ec9dce65_0.1.0.0_x86__dm1jbdk4h0tfw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5ff577cf-3a48-41c0-bbc7-8159ec9dce65_dm1jbdk4h0tfw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5ff577cf-3a48-41c0-bbc7-8159ec9dce65</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=lois7</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>0.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T18:42:57.453</Modified>
+      <Modified>2018-05-10T00:44:19.350</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\FluentCounter.exe">
       <PackagePath>entrypoint\FluentCounter.exe</PackagePath>
-      <Modified>2018-05-09T18:42:57.091</Modified>
+      <Modified>2018-05-10T00:44:19.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.4\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -739,11 +739,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-05-09T18:42:56.947</Modified>
+      <Modified>2018-05-10T00:44:18.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-09T18:42:56.948</Modified>
+      <Modified>2018-05-10T00:44:18.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -752,11 +752,11 @@
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T18:31:58.406</Modified>
+      <Modified>2018-05-09T21:54:05.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\Core\FluentCounter.exe">
       <PackagePath>FluentCounter.exe</PackagePath>
-      <Modified>2018-05-09T18:42:57.449</Modified>
+      <Modified>2018-05-10T00:44:19.346</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

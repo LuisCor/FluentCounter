@@ -286,3 +286,4 @@ C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\obj\
 C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\obj\x86\Debug\FxResources.System.Threading.Thread.SR.resw
 C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\obj\x86\Debug\FxResources.System.Transactions.Local.SR.resw
 C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\obj\x86\Debug\FxResources.System.ValueTuple.SR.resw
+C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\Core\ForBundle\AppxManifest.xml

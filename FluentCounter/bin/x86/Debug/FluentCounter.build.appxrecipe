@@ -553,6 +553,12 @@
     <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\FluentCounter.xr.xml">
       <PackagePath>FluentCounter.xr.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lois7\Documents\Projects\FluentCounter\FluentCounter\FluentCounter\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

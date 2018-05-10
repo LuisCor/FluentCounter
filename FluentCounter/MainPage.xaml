@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}">
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
             <RowDefinition Height="4*" />
@@ -23,6 +23,8 @@
 
         <Button Grid.Row="1" Grid.Column="1" Name="StartButton" Content="Start" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Center" FontSize="20" Click="StartButton_Click"/>
         <TextBlock Grid.Row="1" Grid.Column="1" Name="CountdownText"  HorizontalAlignment="Center" Margin="0,0,0,0" Text="00:00:00" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="72"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Name="CountdownText2"  HorizontalAlignment="Center" Margin="0,300,0,0" Text="00:00:00" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="72"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Name="CountdownText3"  HorizontalAlignment="Center" Margin="0,558,0,0" Text="00:00:00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72"/>
 
     </Grid>
 </Page>
